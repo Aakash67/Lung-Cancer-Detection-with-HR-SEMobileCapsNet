@@ -15,6 +15,7 @@ A lightweight deep learning application for detecting lung cancer using a custom
 ---
 
 ## 📁 Project Structure
+
 Lung-Cancer-Detection-with-HR-SEMobileCapsNet/
 │
 ├── cv_model/
