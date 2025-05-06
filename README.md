@@ -31,7 +31,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 3. Install Dependencies
 Install the required Python packages using pip:
-pip install -r requirements.txt
+
+```pip install -r requirements.txt ```
 
 ### 4. Run the FastAPI App
 Start the FastAPI server locally with:
@@ -44,7 +45,8 @@ Open your web browser and navigate to: http://127.0.0.1:8000
 
 ---
 
-##🧠 Model Overview
+## 🧠 Model Overview
+
 The HR-SEMobileCapsNet model is designed for medical image analysis, particularly lung cancer detection. It combines:
 
 - Residual MobileNetV3: for fast and compact feature extraction
