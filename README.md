@@ -14,21 +14,6 @@ A lightweight deep learning application for detecting lung cancer using a custom
 
 ---
 
-## 📁 Project Structure
-
-Lung-Cancer-Detection-with-HR-SEMobileCapsNet/
-│
-├── cv_model/
-│ ├── final.pth # Trained model weights
-│ └── network.py # Model architecture (HR-SEMobileCapsNet)
-│
-├── templates/
-│ └── index.html 
-│
-├── main.py 
-├── requirements.txt 
-└── README.md 
-
 ## ⚙️ Getting Started
 
 ### 1. Clone the Repository
@@ -54,6 +39,8 @@ uvicorn main:app --reload
 ### 5. Open in Browser
 Open your web browser and navigate to: http://127.0.0.1:8000
 
+---
+
 ##🧠 Model Overview
 The HR-SEMobileCapsNet model is designed for medical image analysis, particularly lung cancer detection. It combines:
 
@@ -62,6 +49,8 @@ The HR-SEMobileCapsNet model is designed for medical image analysis, particularl
 - Capsule Networks: for preserving spatial relationships and enhancing interpretability
 
 This hybrid model is optimized for real-time performance and high accuracy, even on resource-constrained systems.
+
+---
 
 💻 Web Interface
 A user-friendly web interface is included. Users can upload lung scan images (X-ray or CT), and the model processes the image and returns a diagnosis prediction instantly in the browser.
