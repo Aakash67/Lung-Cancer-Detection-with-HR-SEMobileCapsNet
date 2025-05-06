@@ -18,23 +18,26 @@ A lightweight deep learning application for detecting lung cancer using a custom
 
 ### 1. Clone the Repository
 Clone this GitHub repository and navigate into the project directory:
-
+```
 git clone https://github.com/Aakash67/Lung-Cancer-Detection-with-HR-SEMobileCapsNet.git
 cd Lung-Cancer-Detection-with-HR-SEMobileCapsNet
-
+```
 ### 2. (Optional) Create a Virtual Environment
 To isolate dependencies, it's recommended to use a virtual environment:
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 3. Install Dependencies
 Install the required Python packages using pip:
 pip install -r requirements.txt
 
-###4. Run the FastAPI App
+### 4. Run the FastAPI App
 Start the FastAPI server locally with:
-
+```
 uvicorn main:app --reload
+```
 
 ### 5. Open in Browser
 Open your web browser and navigate to: http://127.0.0.1:8000
